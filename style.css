@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+  
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+  
+textarea {
+    resize: none;
+}
+  
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* END OF CSS RESET */
+
+body{
+    background-color: #ffeedf;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 290px;
+    height: 416px;
+    margin: 62px;
+    padding: 27px;
+}
+
+div h2{
+    color: #33793f;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+div h6{
+    color: #999;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+div p{
+    color: #999;
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+@media (max-width: 800px) {
+    #root {
+      flex-direction: column;
+}
